@@ -1,0 +1,137 @@
+a {
+    text-decoration: none;
+}
+
+.signin{
+    /* background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b); */
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    padding-top: 7%;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    padding-top: 16px;
+}
+
+#forgot-pass {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+
+#logincard {
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    max-height: 520px;
+    min-height: 420px;
+    margin: 0 auto 0 auto;
+    width: 329px;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 18px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+#signup {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.login-submit-btn {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+.login-submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+
+.login--invalid:hover {
+    box-shadow: none;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 1.5px;
+    width: 100%;
+}
+
+.form-border--invalid {
+    background: -webkit-linear-gradient(right, #f77b7b, #c02e2e);
+    height: 1.5px;
+    width: 100%;
+}
+
+.form-content {
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 2px;
+    margin: 0 auto 0 auto;
+    width: 105px;
+}
+
+.useradmin {
+    display: inline-flex;
+}
+
+.form-select {
+    align-items: flex-start;
+    width: 40%;
+    border-radius: 0%;
+}
+
+.form-control {
+    border-radius: 0%;
+}
+
+.form-control:disabled {
+    background-color: #fbfbfb;
+}
+
+.fpass {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.error-text {
+    padding-top: 4px;
+    font-size: x-small;
+    font-family: "Raleway", sans-serif;
+    color: #c02e2e;
+}
