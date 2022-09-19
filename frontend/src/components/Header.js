@@ -26,7 +26,7 @@ const Header = () => {
       >
         <Container className="py-1">
           <LinkContainer to="/">
-            <Navbar.Brand className="brand">ELECTRIFY</Navbar.Brand>
+            <Navbar.Brand className="brand">ElECTRA</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
